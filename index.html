@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+	<div class="ventana-chat">
+		<div class="chat">
+			<div class="mensj mensj-info">
+				<h3>Hola!!</h3>
+				<p>Escribe en el campo de abajo y presiona OK. (puedes cambiar el tipo si deseas)</p>
+			</div>
+		</div>
+		<div class="botones">
+			<div class="row">
+				<div class="col-xs-4 col-sm-2">
+					<select id="msgType" class="form-control">
+						<option value="warning">warn</option>
+						<option value="danger">danger</option>
+						<option value="info">info</option>
+						<option value="success">ok</option>
+					</select>
+				</div>
+				<div class="col-xs-6 col-sm-8 pd-r pd-l">
+					<input type="text" class="form-control">
+				</div>
+				<div class="col-xs-2 pl">
+					<button type="button"class="btn btn-block btn-success">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
